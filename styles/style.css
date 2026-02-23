@@ -1,0 +1,133 @@
+/* #body {
+    background-color: black;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+#auth-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#sign-in{
+    display: flex;
+    box-shadow: 0 10px 15px rgba(1, 1, 1, 0.3);
+    align-items: center; 
+    box-shadow: 3cap;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 750px;
+    height: 450px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#sign-in aside {
+    display: flex;
+    background-color: rgb(251, 46, 46);
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100px; */
+    height: 450px;
+    padding: 32px;
+    font-size: 20px;
+    /* font-size: 19,4px; */
+    /* width: 100px; */
+    flex: 1;
+}
+
+#sign-in aside h1 {
+    margin-top: 70%;
+    color:white;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+}
+
+#sign-in aside h3 {
+    color:white;
+    font-weight: normal;
+    font-family: "Saira", sans-serif;
+     font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    
+}
+
+#sign-in-inactive-button {
+    margin: 0 auto;
+    /* width: 80px; */
+}
+
+#create-account {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25%;
+    padding: 32px;
+    font-size: 20px;
+    /* width: 100px; */
+    flex: 1;
+    margin-bottom: 2%;
+}
+#create-account h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    /* margin-top: 40%; */
+    margin-bottom: 10%;
+}
+
+#sign-in-inactive-button {
+    font-family: "Archivo Black", sans-serif;
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 60%;
+    border-color: white;
+}
+
+#sign-up-active-button {
+    margin: 0 auto;
+    font-family: "Archivo Black", sans-serif;
+    background: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 50%;
+    border-color: white;
+    margin-top: 5%;
+}
+
+.input-text {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    border: 10px;
+    margin: 5px;
+    border-color: black;
+    font-size: 21px;
+    padding: 5px;
+}
+
+.input-text::placeholder {
+    display: flex;
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+}                   
