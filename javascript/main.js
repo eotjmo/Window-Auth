@@ -66,11 +66,11 @@ signDiv.addEventListener('click', function(event) {
         console.log(accounts);
     } else if (event.target === signInActiveBtn) {
         const findUser = accounts.find(userEmail => userEmail['email'] === inputEmailSignIn.value)
-        const findPassword = accounts.find(userPassword => userPassword['password'] === inputPasswordSignIn.value)
+        // const findPassword = accounts.find(userPassword => userPassword['password'] === inputPasswordSignIn.value)
         // const findName = accounts.find(userName => userName['name'] === inputNameSignIn.value)
         if (findUser) {
             // alert('Find user Email - Succes!');
-            if (findPassword) {
+            if (findUser.password === inputPasswordSignIn.value) {
                 alert('Succes Authorization!')
 
                 inputValueClean();
