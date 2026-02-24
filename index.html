@@ -8,6 +8,10 @@
 </head>
 <body>
     <main>
+        <section id="user-welcome">
+            <!-- <h1>It is</h1>
+            <h3>User?</h3> -->
+        </section>
         <section id="auth-card">
             <div id="sign-in">
             <aside class="active">
@@ -16,7 +20,7 @@
                     <h3>To keep connected with us please create account<br>with your personal info.</h3>
                     <button class="sign-inactive-button" id="sign-in-inactive-button">SIGN IN</button>
                 </div>
-                <div class="content-info" id="register-welcome" style="display: inline;">
+                <div class="content-info" id="register-welcome" style="display: block;">
                     <h1>Welcome Back!</h1>
                     <h3>To keep connected with us please login<br>with your personal info.</h3>
                     <button class="sign-inactive-button" id="sign-up-inactive-button">SIGN UP</button>
@@ -25,15 +29,15 @@
             <div id="sign-up">
                 <div class="form-container" id="sign-up-content" style="display: none;">
                     <h1>Create Account</h1>
-                    <input class="input-text" id="name-input" type="text" placeholder="Name">
-                    <input class="input-text" id="email-input" type="email" placeholder="Email">
-                    <input class="input-text" id="password-input" type="password" placeholder="Password">
+                    <input class="input-text" id="name-input-signup" type="text" placeholder="Name">
+                    <input class="input-text" id="email-input-signup" type="email" placeholder="Email">
+                    <input class="input-text" id="password-input-signup" type="password" placeholder="Password">
                     <button class="sign-active-button" id="sign-up-active-button">SIGN UP</button>
                 </div>
-                <div class="form-container" id="sign-in-content" style="display: inline;">
+                <div class="form-container" id="sign-in-content" style="display: block;">
                     <h1>Log in your account</h1>
-                    <input class="input-text" id="email-input" type="email" placeholder="Email">
-                    <input class="input-text" id="password-input" type="password" placeholder="Password">
+                    <input class="input-text" id="email-input-signin" type="email" placeholder="Email">
+                    <input class="input-text" id="password-input-signin" type="password" placeholder="Password">
                     <button class="sign-active-button" id="sign-in-active-button">SIGN IN</button>
                 </div>
             </div>

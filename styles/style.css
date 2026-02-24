@@ -46,6 +46,32 @@
     transform: translateX();
 } */
 
+
+#user-welcome {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 18%; */
+}
+
+#user-welcome h1 {
+    /* align-items: center; */
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 100px;
+}
+
+#user-welcome h3 {
+    color:rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "Saira", sans-serif;
+     font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    
+}
+
 #sign-in aside h1 {
     margin-top: 70%;
     color:white;
