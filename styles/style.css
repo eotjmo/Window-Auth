@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
-#auth-window {
+#auth-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     box-shadow: 0 10px 15px rgba(1, 1, 1, 0.3);
     align-items: center; 
     box-shadow: 3cap;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 100%;
     max-width: 750px;
     height: 450px;
@@ -39,7 +39,12 @@
     /* font-size: 19,4px; */
     /* width: 100px; */
     flex: 1;
+    transform: translateX(0%);
 }
+
+/* #sign-in aside.active {
+    transform: translateX();
+} */
 
 #sign-in aside h1 {
     margin-top: 70%;
@@ -59,12 +64,7 @@
     
 }
 
-#sign-in-inactive-button {
-    margin: 0 auto;
-    /* width: 80px; */
-}
-
-#create-account {
+#sign-up {
     display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: center;
@@ -77,7 +77,7 @@
     flex: 1;
     margin-bottom: 2%;
 }
-#create-account h1 {
+#sign-up h1 {
     font-size: 30px;
     font-weight: bold;
     font-family: "Archivo Black", sans-serif;
@@ -85,7 +85,7 @@
     margin-bottom: 10%;
 }
 
-#sign-in-inactive-button {
+.sign-inactive-button {
     font-family: "Archivo Black", sans-serif;
     background: none;
     color: white;
@@ -97,9 +97,10 @@
     width: 60%;
     margin-bottom: 60%;
     border-color: white;
+    /* margin: 0 auto; */
 }
 
-#sign-up-active-button {
+.sign-active-button {
     margin: 0 auto;
     font-family: "Archivo Black", sans-serif;
     background: none;

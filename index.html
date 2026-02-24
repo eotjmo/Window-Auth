@@ -8,20 +8,34 @@
 </head>
 <body>
     <main>
-        <section id="auth-window">
+        <section id="auth-card">
             <div id="sign-in">
-            <aside>
-                <h1>Welcome Back!</h1>
-                <h3>To keep connected with us please login<br>with your personal info.
-                </h3>
-                <button id="sign-in-inactive-button">SIGN IN</button>
+            <aside class="active">
+                <div class="content-info" id="login-welcome" style="display: none;">
+                    <h1>Welcome Back!</h1>
+                    <h3>To keep connected with us please create account<br>with your personal info.</h3>
+                    <button class="sign-inactive-button" id="sign-in-inactive-button">SIGN IN</button>
+                </div>
+                <div class="content-info" id="register-welcome" style="display: inline;">
+                    <h1>Welcome Back!</h1>
+                    <h3>To keep connected with us please login<br>with your personal info.</h3>
+                    <button class="sign-inactive-button" id="sign-up-inactive-button">SIGN UP</button>
+                </div>
             </aside>
-            <div id="create-account">
-                <h1>Create Account</h1>
-                <input class="input-text" id="name-input" type="text" placeholder="Name">
-                <input class="input-text" id="email-input" type="email" placeholder="Email">
-                <input class="input-text" id="password-input" type="password" placeholder="Password">
-                <button id="sign-up-active-button">SIGN UP</button>
+            <div id="sign-up">
+                <div class="form-container" id="sign-up-content" style="display: none;">
+                    <h1>Create Account</h1>
+                    <input class="input-text" id="name-input" type="text" placeholder="Name">
+                    <input class="input-text" id="email-input" type="email" placeholder="Email">
+                    <input class="input-text" id="password-input" type="password" placeholder="Password">
+                    <button class="sign-active-button" id="sign-up-active-button">SIGN UP</button>
+                </div>
+                <div class="form-container" id="sign-in-content" style="display: inline;">
+                    <h1>Log in your account</h1>
+                    <input class="input-text" id="email-input" type="email" placeholder="Email">
+                    <input class="input-text" id="password-input" type="password" placeholder="Password">
+                    <button class="sign-active-button" id="sign-in-active-button">SIGN IN</button>
+                </div>
             </div>
         </div>
         </section>
